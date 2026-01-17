@@ -16,19 +16,22 @@
     header {
       background-color: #0b6623;
       color: white;
-      padding: 15px;
+      padding: 20px;
       text-align: center;
     }
 
     .container {
       padding: 15px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
     }
 
     .product {
       background-color: white;
       padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 8px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     .product h3 {
@@ -55,9 +58,9 @@
 
     footer {
       text-align: center;
+      padding: 15px;
       font-size: 14px;
       color: #555;
-      padding: 10px;
     }
   </style>
 </head>
@@ -65,19 +68,66 @@
 <body>
 
 <header>
-  <h1>CASA NOVA YAPACANI</h1>
+  <h1>CASA NOVA</h1>
   <p>Compra y venta de artículos usados en Yapacaní</p>
 </header>
 
 <div class="container">
 
   <div class="product">
-    <h3>Producto de ejemplo</h3>
-    <p class="price">Bs 500</p>
+    <h3>Casa en Yapacaní</h3>
+    <p class="price">Bs 85.000</p>
+    <p>Estado: Buena ubicación</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Lote en venta</h3>
+    <p class="price">Bs 25.000</p>
+    <p>Estado: Documentos al día</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Moto Yamaha</h3>
+    <p class="price">Bs 9.500</p>
+    <p>Estado: Usada – buen estado</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Auto Toyota Corolla</h3>
+    <p class="price">Bs 48.000</p>
+    <p>Estado: Usado – funciona bien</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Televisor Samsung 43"</h3>
+    <p class="price">Bs 2.200</p>
+    <p>Estado: Usado – como nuevo</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Sofá 3 cuerpos</h3>
+    <p class="price">Bs 1.500</p>
+    <p>Estado: Buen estado</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Garrafa de gas</h3>
+    <p class="price">Bs 300</p>
+    <p>Estado: Usada</p>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
+  </div>
+
+  <div class="product">
+    <h3>Aparador de madera</h3>
+    <p class="price">Bs 700</p>
     <p>Estado: Usado – buen estado</p>
-    <a class="btn" href="https://wa.me/59173116695 target="_blank">
-      Hablar por WhatsApp
-    </a>
+    <a class="btn" href="https://wa.me/59173116695">Hablar por WhatsApp</a>
   </div>
 
 </div>
